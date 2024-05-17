@@ -6,7 +6,7 @@ export default function Home() {
   const [scenarios, setScenarios] = useState([]);
   const [selectedScenario, setSelectedScenario] = useState(null);
   const [vehicles, setVehicles] = useState([]);
-  const [selectedVehicle, setSelectedVehicle] = useState(null);
+  // const [selectedVehicle, setSelectedVehicle] = useState(null);
   const [simulationRunning, setSimulationRunning] = useState(false);
   const [showEditModal, setShowEditModal] = useState(false);
   const [editedVehicle, setEditedVehicle] = useState(null);
@@ -164,7 +164,7 @@ export default function Home() {
 
 
   const handleEditVehicle = (vehicle) => {
-    setSelectedVehicle(vehicle);
+    // setSelectedVehicle(vehicle);
     setEditedVehicle({ ...vehicle }); // Make a copy of the vehicle object to prevent direct mutation
     setShowEditModal(true);
   };

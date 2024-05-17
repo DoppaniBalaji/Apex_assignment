@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Page Not Found</title>
+    <script type="text/javascript">
+      // Redirect to the correct URL
+      (function() {
+        var path = window.location.pathname;
+        var search = window.location.search;
+        var hash = window.location.hash;
+        var newPath = "/Apex_assignment" + path + search + hash;
+
+        // Avoid infinite redirect loop by checking if already on the correct path
+        if (!window.location.pathname.startsWith("/Apex_assignment")) {
+          window.location.replace(newPath);
+        }
+      })();
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
