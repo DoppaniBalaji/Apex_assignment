@@ -3,12 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>Page Not Found</title>
-    <meta http-equiv="refresh" content="0; URL=/#/">
+    <meta http-equiv="refresh" content="0; URL=/#/not-found">
     <script type="text/javascript">
-      // Redirect to the correct URL
-      var path = window.location.pathname;
-      var newPath = "/Apex_assignment" + path;
-      window.location.replace(newPath);
+      // Redirect to the correct URL if it's not already the base URL
+      (function() {
+        var path = window.location.pathname;
+        var hash = window.location.hash;
+        var newPath = "/Apex_assignment" + path;
+        if (!hash) {
+          window.location.replace(newPath);
+        }
+      })();
     </script>
   </head>
   <body>

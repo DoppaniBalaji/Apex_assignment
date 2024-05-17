@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Apex_assignment/static/css/main.b86e0820.css",
-    "main.js": "/Apex_assignment/static/js/main.31818bf5.js",
+    "main.js": "/Apex_assignment/static/js/main.81d6bc15.js",
     "static/js/453.909f26ec.chunk.js": "/Apex_assignment/static/js/453.909f26ec.chunk.js",
     "index.html": "/Apex_assignment/index.html",
     "main.b86e0820.css.map": "/Apex_assignment/static/css/main.b86e0820.css.map",
-    "main.31818bf5.js.map": "/Apex_assignment/static/js/main.31818bf5.js.map",
+    "main.81d6bc15.js.map": "/Apex_assignment/static/js/main.81d6bc15.js.map",
     "453.909f26ec.chunk.js.map": "/Apex_assignment/static/js/453.909f26ec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b86e0820.css",
-    "static/js/main.31818bf5.js"
+    "static/js/main.81d6bc15.js"
   ]
 }
