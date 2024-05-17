@@ -1,0 +1,63 @@
+{
+  "scenarios": [
+    {
+      "id": "fa63",
+      "name": "scenario 1_ updated",
+      "time": "6",
+      "vehicleCount": 1
+    },
+    {
+      "id": "f3a2",
+      "name": "scenario 2",
+      "time": "100"
+    },
+    {
+      "id": "d290",
+      "name": "scenario 3",
+      "time": "10"
+    },
+    {
+      "id": "e41f",
+      "name": "scenario 5",
+      "time": "30"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "9c5d",
+      "scenarioId": "fa63",
+      "name": "tata",
+      "speed": 40,
+      "positionX": -60,
+      "positionY": 200,
+      "direction": "towards"
+    },
+    {
+      "id": "1542",
+      "scenarioId": "f3a2",
+      "name": "bob",
+      "speed": 50,
+      "positionX": -100,
+      "positionY": 200,
+      "direction": "towards"
+    },
+    {
+      "id": "b9a6",
+      "scenarioId": "d290",
+      "name": "bus",
+      "speed": 100,
+      "positionX": 100,
+      "positionY": 300,
+      "direction": "towards"
+    },
+    {
+      "id": "50f1",
+      "scenarioId": "e41f",
+      "name": "bus",
+      "speed": 100,
+      "positionX": 200,
+      "positionY": 500,
+      "direction": "downwards"
+    }
+  ]
+}
