@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/apexplus_assignment/static/css/main.b86e0820.css",
+    "main.js": "/apexplus_assignment/static/js/main.55ab4b2d.js",
+    "static/js/453.909f26ec.chunk.js": "/apexplus_assignment/static/js/453.909f26ec.chunk.js",
+    "index.html": "/apexplus_assignment/index.html",
+    "main.b86e0820.css.map": "/apexplus_assignment/static/css/main.b86e0820.css.map",
+    "main.55ab4b2d.js.map": "/apexplus_assignment/static/js/main.55ab4b2d.js.map",
+    "453.909f26ec.chunk.js.map": "/apexplus_assignment/static/js/453.909f26ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b86e0820.css",
+    "static/js/main.55ab4b2d.js"
+  ]
+}
